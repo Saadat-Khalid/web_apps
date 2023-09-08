@@ -2,6 +2,7 @@
 
 ![App Screenshot](https://raw.githubusercontent.com/Saadat-Khalid/web_apps/main/Random%20Quotes%20Web%20App/random%20quotes%20web%20app%20saadat%20khalid%20awan.png)
 
+
 ## Overview
 
 The Random Quotes Web App is a simple web application built with Python and Streamlit. It allows users to view random quotes sourced from [https://quotes.toscrape.com/](https://quotes.toscrape.com/), a wonderful platform for quotes. The app automatically updates the displayed quote every 10 minutes, providing users with fresh and inspiring content.
