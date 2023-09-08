@@ -1,6 +1,6 @@
 # Random Quotes Web App
 
-![App Screenshot]()
+![App Screenshot](https://raw.githubusercontent.com/Saadat-Khalid/web_apps/main/Random%20Quotes%20Web%20App/random%20quotes%20web%20app%20saadat%20khalid%20awan.png)
 
 ## Overview
 
