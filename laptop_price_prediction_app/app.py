@@ -10,7 +10,7 @@ preprocessor = joblib.load('laptop_price_prediction_app/preprocessor.pkl')
 best_model = joblib.load('laptop_price_prediction_app/best_model.pkl')
 
 # Load your dataset
-df = pd.read_csv('data.csv')
+df = pd.read_csv('laptop_price_prediction_app/data.csv')
 
 # Drop 'spec_rating' and 'price' columns
 X = df.drop(columns=['spec_rating', 'price'])
