@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Load the preprocessor and best model
-preprocessor = joblib.load('https://github.com/Saadat-Khalid/web_apps/blob/d80e7d776b228f9e2d4a227f6553095214dbf7d9/laptop_price_prediction_app/preprocessor.pkl')
+preprocessor = joblib.load('/laptop_price_prediction_app/preprocessor.pkl')
 best_model = joblib.load('best_model.pkl')
 
 # # Load the name of the best model
