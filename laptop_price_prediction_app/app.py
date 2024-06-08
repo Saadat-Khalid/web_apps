@@ -1,14 +1,11 @@
 import streamlit as st
 import joblib
 import pandas as pd
+import path
 
 # Load the preprocessor and best model
-preprocessor = joblib.load('/laptop_price_prediction_app/preprocessor.pkl')
-best_model = joblib.load('best_model.pkl')
-
-# # Load the name of the best model
-# with open('best_model_name.txt', 'r') as f:
-#     best_model_name = f.read().strip()
+preprocessor = joblib.load('/preprocessor.pkl')
+best_model = joblib.load('/best_model.pkl')
 
 # Load your dataset
 df = pd.read_csv('data.csv')
