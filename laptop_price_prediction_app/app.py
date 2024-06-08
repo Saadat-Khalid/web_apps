@@ -75,15 +75,25 @@ if st.button("Predict Laptop Price"):
     st.write(f"Predicted Laptop Price: ₹{results:.2f}")
     st.write(f"Predicted Laptop Price: ${results*0.012:.2f}")
 
-# Define the footer
-def footer():
-  footer_text = [
-      "Made with Streamlit by Saadat Khalid ",
-      "Connect with me on:",
-      f"[Kaggle](https://www.kaggle.com/saadatkhalid)  [![Kaggle](https://iconail.com/icons/kaggle-flat.png)]",
-      f"[LinkedIn](https://www.linkedin.com/in/saadatawan/)  [![LinkedIn](https://cdn-icons-png.flaticon.com/v8/static/svg/media/fi-rr-brands/fi-rr-linkedin.svg)]",
-  ]
-  st.write('<br/>'.join(footer_text), unsafe_allow_html=True)
+## About ME:
+st.header("About ME:")
+st.write("Hi there, I'm Saadat Khalid Awan 👋")
+st.write("`Aspiring Data Scientist`")
+st.write("I'm a software engineer with a keen interest in data science. I hold a BS degree in Software Engineering and am currently learning about the field of data science.")
 
-# Call the footer function at the end of your app
-footer()
+st.write("Submission Date: June 08, 2024")
+
+# Social Media Links
+st.header("Let's Connect:")
+st.markdown(
+    "[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/Saadat.Khalid.Awan) "
+    "[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/saadii_awan66) "
+    "[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/saadatawan) "
+    "[![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@@me.saadat) "
+    "[![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/its_saadatkhalid) "
+    "[![Quora](https://img.shields.io/badge/Quora-%23B92B27.svg?logo=Quora&logoColor=white)](https://quora.com/profile/Saadat-Khalid-Awan) "
+    "[![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@@saadat.awan) "
+    "[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/saadat_96) "
+    "[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@saadatkhalidawan) "
+    "[![Github](https://img.shields.io/badge/Github-%23FF0000.svg?logo=Github&logoColor=Black)](https://github.com/Saadat-Khalid/)"
+)
