@@ -4,7 +4,7 @@ import pandas as pd
 from pathlib import Path
 st.text(Path.cwd()) 
 # Load the preprocessor and best model
-preprocessor = joblib.load('web_apps/laptop_price_prediction_app/preprocessor.pkl')
+preprocessor = joblib.load('./laptop_price_prediction_app/preprocessor.pkl')
 best_model = joblib.load('\best_model.pkl')
 
 # Load your dataset
