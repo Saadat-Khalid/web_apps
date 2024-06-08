@@ -1,10 +1,8 @@
-from pathlib import Path
-st.text(Path.cwd()) 
-
 import streamlit as st
 import joblib
 import pandas as pd
-
+from pathlib import Path
+st.text(Path.cwd()) 
 # Load the preprocessor and best model
 preprocessor = joblib.load('laptop_price_prediction_app/preprocessor.pkl')
 best_model = joblib.load('laptop_price_prediction_app/best_model.pkl')
