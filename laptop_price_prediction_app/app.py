@@ -1,7 +1,6 @@
 import streamlit as st
 import joblib
 import pandas as pd
-import path
 
 # Load the preprocessor and best model
 preprocessor = joblib.load('/preprocessor.pkl')
