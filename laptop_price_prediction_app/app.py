@@ -4,8 +4,8 @@ import pandas as pd
 from pathlib import Path
 st.text(Path.cwd()) 
 # Load the preprocessor and best model
-preprocessor = joblib.load('preprocessor.pkl')
-best_model = joblib.load('best_model.pkl')
+preprocessor = joblib.load('\preprocessor.pkl')
+best_model = joblib.load('\best_model.pkl')
 
 # Load your dataset
 df = pd.read_csv('data.csv')
