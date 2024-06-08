@@ -45,9 +45,9 @@ def predict_laptop_price(brand, name, cpu, processor, ram, ram_type, storage, st
     return price_prediction
 
 # Set up the Streamlit app
+st.set_page_config(page_title="Laptop Price Predictor", page_icon="💻")
 st.title("💻 Laptop Price Predictor")
 st.subheader("Enter laptop details to get predicted price")
-st.set_page_config(page_title="💻 Laptop Price Predictor")
 
 # Define the input fields
 with st.sidebar:
