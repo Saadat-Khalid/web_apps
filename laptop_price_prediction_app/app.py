@@ -1,6 +1,7 @@
 import streamlit as st
 import joblib
 import pandas as pd
+import sklearn
 from pathlib import Path
 st.text(Path.cwd()) 
 # Load the preprocessor and best model
