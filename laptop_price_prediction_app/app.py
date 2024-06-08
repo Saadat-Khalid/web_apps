@@ -6,8 +6,8 @@ import pandas as pd
 # st.text(Path.cwd()) 
 
 # Load the preprocessor and best model
-preprocessor = joblib.load('./laptop_price_prediction_app/preprocessor.pkl')
-best_model = joblib.load('./laptop_price_prediction_appbest_model.pkl')
+preprocessor = joblib.load('/laptop_price_prediction_app/preprocessor.pkl')
+best_model = joblib.load('/laptop_price_prediction_appbest_model.pkl')
 
 # Load your dataset
 df = pd.read_csv('data.csv')
