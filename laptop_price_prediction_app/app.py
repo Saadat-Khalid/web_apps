@@ -1,3 +1,6 @@
+from pathlib import Path
+st.text(Path.cwd()) 
+
 import streamlit as st
 import joblib
 import pandas as pd
